@@ -1,6 +1,7 @@
 package words
 
 import "strings"
+import "fmt"
 
 func WordCount(s string) map[string]int { //HL
 	fmt.Println("Khanaphoz")
