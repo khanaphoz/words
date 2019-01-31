@@ -3,7 +3,7 @@ package words
 import "strings"
 
 func WordCount(s string) map[string]int { //HL
-
+	fmt.Println("Khanaphoz")
 	r := strings.Replace(s, ".", "", -1)
 	r = strings.Replace(r, ",", "", -1)
 	r = strings.ToLower(r)
